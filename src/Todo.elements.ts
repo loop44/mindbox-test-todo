@@ -47,7 +47,7 @@ export const Form = styled.form`
   }
 `;
 
-export const Todo = styled.div<TodoProps>`
+export const Task = styled.div<TodoProps>`
   display: flex;
   padding: 13px;
   gap: 10px;

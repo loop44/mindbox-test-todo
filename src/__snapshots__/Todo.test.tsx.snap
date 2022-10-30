@@ -18,13 +18,15 @@ exports[`Todo test > todo snapshot 1`] = `
             class="sc-dkrFOg isoTNN"
           >
             <input
-              alt=""
+              alt="Add todo"
               src="/src/assets/arrow-down.svg"
               type="image"
             />
             <input
+              data-testid="task-input"
               placeholder="What needs to be done?"
               type="text"
+              value=""
             />
           </form>
           <div>
@@ -69,7 +71,8 @@ exports[`Todo test > todo snapshot 1`] = `
             class="sc-eDvSVe kziEai"
           >
             <p>
-              2 items left
+              2
+               items left
             </p>
             <div
               class="todoTypes"
@@ -79,10 +82,14 @@ exports[`Todo test > todo snapshot 1`] = `
               >
                 All
               </button>
-              <button>
+              <button
+                class=""
+              >
                 Active
               </button>
-              <button>
+              <button
+                class=""
+              >
                 Completed
               </button>
             </div>
@@ -108,13 +115,15 @@ exports[`Todo test > todo snapshot 1`] = `
           class="sc-dkrFOg isoTNN"
         >
           <input
-            alt=""
+            alt="Add todo"
             src="/src/assets/arrow-down.svg"
             type="image"
           />
           <input
+            data-testid="task-input"
             placeholder="What needs to be done?"
             type="text"
+            value=""
           />
         </form>
         <div>
@@ -159,7 +168,8 @@ exports[`Todo test > todo snapshot 1`] = `
           class="sc-eDvSVe kziEai"
         >
           <p>
-            2 items left
+            2
+             items left
           </p>
           <div
             class="todoTypes"
@@ -169,10 +179,14 @@ exports[`Todo test > todo snapshot 1`] = `
             >
               All
             </button>
-            <button>
+            <button
+              class=""
+            >
               Active
             </button>
-            <button>
+            <button
+              class=""
+            >
               Completed
             </button>
           </div>
